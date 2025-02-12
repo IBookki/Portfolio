@@ -1,4 +1,3 @@
-import { style } from 'framer-motion/client';
 import React from 'react';
 import type { Metadata } from 'next';
 
@@ -36,7 +35,7 @@ const ExperiencesPage = () => {
                     <p className="text-gray-600">McDonald's  •  April - June 2024</p>
                     <p className="text-slate-100 mt-2 font-medium">Preparation of products in the kitchen in compliance with hygiene and safety rules
                     </p>
-                    <p className="text-slate-300 mt-2">-Compétences acquises : Rapidité, Résistance à la pression, Travail d’équipe</p>
+                    <p className="text-slate-300 mt-2">-Compétences acquises : Rapidité, Résistance à la pression, Travail d'équipe</p>
                 </div>
             </div>
 

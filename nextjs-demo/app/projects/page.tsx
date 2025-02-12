@@ -1,6 +1,5 @@
 import React from 'react';
 import css from './projects.module.css';
-import { div } from 'framer-motion/client';
 import Image from 'next/image';
 import Link from 'next/link';
 import type { Metadata } from 'next';

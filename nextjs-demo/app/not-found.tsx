@@ -16,7 +16,7 @@ export default function NotFound() {
                             priority 
                             alt="Sass project cover"></Image>
                             
-      <p className=" mt-3 text-2xl mb-8 font-semibold">You shouldn't be here</p>
+      <p className="mt-3 text-2xl mb-8 font-semibold">You shouldn't be here</p>
       
 
     </div>
