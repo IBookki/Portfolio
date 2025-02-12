@@ -1,0 +1,36 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media (min-width: 768px) {
+    .footer {
+        display: none;   }
+}
+
+.contacts {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 1vh;
+}
+
+.github {
+    opacity: 0.9;
+    transition: opacity 0.3s ease;
+}
+
+.linkedin {
+    opacity: 0.9;
+    transition: opacity 0.3s ease;
+}
+
+
+.github:hover {
+    opacity: 2;
+}
+
+.linkedin:hover {
+    opacity: 2;
+}

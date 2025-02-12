@@ -1,0 +1,72 @@
+.side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 55vh;
+    height: calc(100vh - 60px);
+    position:fixed;
+    left: 0;
+    top: 60px; 
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border-bottom: 3px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    padding: 2rem 1rem;
+    z-index: 40; 
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2vh;}
+
+.h1 {
+    color:white;
+    opacity: 0.9;
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-family: 'inter', sans-serif;
+    padding-left: 1.5rem;
+    padding-top: 1rem;
+}
+
+.h2 {
+    color: white;
+    opacity: 0.9;
+    font-size: 4rem;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    padding-left: 1.5rem;
+}
+
+@media (max-width: 768px) {
+    .side {
+        display: none;   }
+}
+
+.contacts {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 1vh;
+}
+
+.github {
+    opacity: 0.9;
+    transition: opacity 0.3s ease;
+}
+
+.linkedin {
+    opacity: 0.9;
+    transition: opacity 0.3s ease;
+}
+
+
+.github:hover {
+    opacity: 2;
+}
+
+.linkedin:hover {
+    opacity: 2;
+}
