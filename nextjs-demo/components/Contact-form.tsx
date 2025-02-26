@@ -27,10 +27,11 @@ export const ContactForm: React.FC = () => {
         
         try {
             await sendEmail(formData);
-            setStatus({ type: 'success', message: 'Message sentx' });
+            setStatus({ type: 'success', message: 'Message sent successfully!' }); // Fixed typo in message
             setFormData({ name: '', email: '', message: '' });
             setTimeout(() => setIsOpen(false), 3000);
-        } catch (error) {
+        } catch (err) { // Changed from error to err and using it
+            console.error('Failed to send email:', err);
             setStatus({ type: 'error', message: 'Failed to send message. Please try again.' });
         }
     };
