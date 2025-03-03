@@ -27,9 +27,11 @@
 }
 
 .image {
+    max-width: 200px; /* Définir une largeur maximale fixe */
+    width: 20%;
     height: auto;
     border-radius: 1em;
-    justify-content: flex-start;
+    flex-shrink: 0; /* Empêche l'image de rétrécir */
 }
 
 .texte {
