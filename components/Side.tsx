@@ -13,7 +13,7 @@ export const Side: React.FC = () => {
             <div className={css.contacts}>
             <Link href="https://github.com/IBookki"><Image className={css.github} src="/logo/github-logo.png" alt="GitHub" width={60} height={60} priority/></Link>
                 
-            <Link href="https://www.linkedin.com/in/theo-jublou/"> <Image className={css.linkedin} src="/logo/linkedin.png" alt="GitHub" width={50} height={50} priority/> </Link>
+            <Link href="https://www.linkedin.com/in/theo-jublou/"> <Image className={css.linkedin} src="/logo/linkedin-logo.png" alt="Linkedin" width={50} height={50} priority/> </Link>
             </div>
         </div>
     );
