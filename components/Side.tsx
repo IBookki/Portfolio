@@ -15,6 +15,15 @@ export const Side: React.FC = () => {
                 
             <Link href="https://www.linkedin.com/in/theo-jublou/"> <Image className={css.linkedin} src="/logo/linkedin-logo.png" alt="Linkedin" width={50} height={50} priority/> </Link>
             </div>
+
+            <div className={css.mobileContacts}>
+  <Link href="https://github.com/IBookki">
+    <Image className={css.github} src="/logo/github-logo.png" alt="GitHub" width={40} height={40} priority/>
+  </Link>
+  <Link href="https://www.linkedin.com/in/theo-jublou/">
+    <Image className={css.linkedin} src="/logo/linkedin-logo.png" alt="LinkedIn" width={40} height={40} priority/>
+  </Link>
+</div>
         </div>
     );
 }

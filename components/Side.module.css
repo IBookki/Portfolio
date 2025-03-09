@@ -42,8 +42,12 @@
 
 @media (max-width: 768px) {
     .side {
-        display: none;   }
-}
+      width: 100%;
+      height: auto;
+      position: relative;
+      top: 0;
+    }
+  }
 
 .contacts {
     display: flex;
@@ -69,4 +73,22 @@
 
 .linkedin:hover {
     opacity: 2;
+}
+
+.mobileContacts {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .side { display: none; }
+  .mobileContacts {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0,0,0,0.7);
+  }
 }
