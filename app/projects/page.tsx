@@ -13,13 +13,14 @@ export const metadata: Metadata = {
 export default function MyProjects() {
   return (
     <div className={css.container}>
+      
       <Link
-        href="https://github.com/IBookki/monito-website"
+        href="https://github.com/IBookki/Plessis-BAP-forum"
         className={css.project}
       >
         <Image
           className={css.image}
-          src="/cover-sass.png"
+          src="/cover-forum.png"
           width={0}
           height={0}
           sizes="100vw"
@@ -28,9 +29,12 @@ export default function MyProjects() {
           alt="Sass project cover"
         />
         <div className={css.texte}>
-          <h1 className={css.h1}>Monito website</h1>
+          <h1 className={css.h1}>Forum Maison des part&apos;ages</h1>
           <p className={css.p}>
-            Pixel-perfect copy of a site design using Sass technology
+            A modern, specialized discussion forum for parents, offering a space
+            for exchange and support on parenting-related topics. Project
+            completed in 2 weeks, as requested by the Maison des Part&apos;ages
+            in Plessis Robinson.
           </p>
         </div>
       </Link>
@@ -55,6 +59,28 @@ export default function MyProjects() {
             Website allowing users to manage a collection of films, with
             specific functionalities for administrators to add, edit, and delete
             films.
+          </p>
+        </div>
+      </Link>
+
+      <Link
+        href="https://github.com/IBookki/monito-website"
+        className={css.project}
+      >
+        <Image
+          className={css.image}
+          src="/cover-sass.png"
+          width={0}
+          height={0}
+          sizes="100vw"
+          style={{ width: "20%", height: "auto" }}
+          priority
+          alt="Sass project cover"
+        />
+        <div className={css.texte}>
+          <h1 className={css.h1}>Monito website</h1>
+          <p className={css.p}>
+            Pixel-perfect copy of a site design using Sass technology
           </p>
         </div>
       </Link>
